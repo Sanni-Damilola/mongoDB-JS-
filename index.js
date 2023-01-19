@@ -14,5 +14,5 @@ app.all("/", (req, res) => {
 app.use("/", datas);
 
 app.listen(port, () => {
-  console.log("done");
+  console.log("Done! on port", port);
 });
